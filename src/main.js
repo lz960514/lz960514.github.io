@@ -14,7 +14,7 @@ Vue.component("VsCode", {
             <div class="right">
                 <div class="r_content">
                     <div class="logo">
-                        <a href="/index.html">
+                        <a href="/">
                             <img src="https://www.thenewstnp.com/img/IMG_0020.JPG" alt="头像">
                         </a>
                     </div>
