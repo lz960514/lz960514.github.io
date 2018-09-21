@@ -1,0 +1,135 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+}
+
+.right {
+    float: left;
+    width: 360px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #ccc;
+    .r_content {
+        padding: 20px;
+        height: 100%;
+        h3 {
+            width: 100%;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            font-weight: normal;
+            font-size: 18px;
+            margin: 0;
+        }
+        .logo {
+            height: 180px;
+            width: 100%; // background: #ddd;
+            text-align: center;
+            position: relative;
+            a {
+                display: block;
+                width: 100px;
+                height: 100px;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                margin-top: -50px;
+                margin-left: -50px;
+                img {
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 50%;
+                }
+            }
+        }
+        .directory {
+            .hover {
+                border-left-color: #ff0000;
+                background: #444;
+                a {
+                    color: #fff;
+                }
+            }
+            li {
+                box-sizing: border-box;
+                padding: 10px 20px; // background: #ddd;
+                border-left: 2px solid #fff;
+                a:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
+
+.left {
+    margin-left: 360px;
+    padding-left: 15px;
+    .l_title {
+        padding-bottom: 20px;
+        border-bottom: 1px solid #ccc;
+    }
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        thead th {
+            height: 26px;
+            background: #ddd;
+            word-break: normal;
+            padding: 5px 8px;
+        }
+        th,
+        td {
+            border: 1px solid #ccc;
+        }
+        tbody td {
+            word-break: normal;
+            padding: 5px 8px;
+            text-align: left;
+            height: 26px;
+        }
+    }
+    .content {
+        margin-bottom: 10px;
+    }
+}
+
+.main .sidebar {
+    background: #000;
+    width: 16px;
+    height: 60px;
+    color: #fff;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    border: 1px solid #DDD;
+    font-size: 16px;
+    padding: 2px 10px;
+    box-sizing: content-box;
+    cursor: pointer;
+    display: none;
+}
