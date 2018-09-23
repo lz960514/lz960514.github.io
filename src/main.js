@@ -27,6 +27,7 @@ Vue.component("VsCode", {
                             </li>
                         </ul>
                     </div>
+                    <div class="version">version:{{version}}</div>
                 </div>
             </div>
             <div class="left">
@@ -55,7 +56,8 @@ Vue.component("VsCode", {
         return {
             title: Data.title,
             list: Data.lsit,
-            author: Data.author
+            author: Data.author,
+            version: Data.version
         }
     }
 })

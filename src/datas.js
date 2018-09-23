@@ -1,6 +1,7 @@
 const datas = {
     title: "Visual Studio Code默认快捷键",
     author: "奔跑的前端猿",
+    version: "1.0.1",
     lsit: [{
             title: "常用 General",
             id: "general",
